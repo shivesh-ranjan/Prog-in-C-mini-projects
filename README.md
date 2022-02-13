@@ -22,7 +22,7 @@ int main (){
 ## 2. Create a project to find sum of digits of a number until a single digit is occurred (without using recursion or iterative (loop) statements).
 ### Instead of using recursion or any other iterative statement, we will be using a jump statement, i.e. we will be using a goto statement.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60e83aac-a114-4ddf-9b5b-55196e654d3d/Untitled.png)
+![image](https://user-images.githubusercontent.com/86239697/153741579-9e28db86-3a4c-4d16-96d8-039e20ea9b0e.jpeg)
 
 ```cpp
 #include<stdio.h>
