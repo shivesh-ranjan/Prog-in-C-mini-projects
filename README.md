@@ -42,7 +42,7 @@ int main(){
         goto jumpto;
 }
 ```
-# Submitted by:
+# Contributers:
 - Shivesh Ranjan L45
 - Kishan Payadi L47
 - KPA Dharmanshu Mahajan L70
