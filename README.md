@@ -20,3 +20,25 @@ int main (){
 }
 ```
 ## 2. Create a project to find sum of digits of a number until a single digit is occurred (without using recursion or iterative (loop) statements).
+### Instead of using recursion or any other iterative statement, we will be using a jump statement, i.e. we will be using a goto statement.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60e83aac-a114-4ddf-9b5b-55196e654d3d/Untitled.png)
+
+```cpp
+#include<stdio.h>
+int main(){
+    int sum=0;
+    int n;
+    printf("write the number-");
+    scanf("%d", &n);
+    jumpto:
+    sum+=n%10;
+    n/=10;
+    if (n==0){
+        printf("Sum of the digits = %d", sum);
+        return 0;
+    }
+    else
+        goto jumpto;
+}
+```
